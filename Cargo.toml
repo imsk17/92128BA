@@ -1,0 +1,9 @@
+[package]
+name = "syndica"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.6", features = ["json", "macros", "tracing"] }
+serde = { version = "1.0.214", features = ["derive"] }
+tokio = { version = "1.41.0", features = ["full"] }
